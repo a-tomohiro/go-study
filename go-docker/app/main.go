@@ -6,7 +6,8 @@ import (
 	"log"
 	"net/http"
 	"time"
-	// _ "github.com/go-sql-driver/mysql"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // Embed htmlファイルに埋め込むデータ構造体
